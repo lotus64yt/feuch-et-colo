@@ -1,0 +1,34 @@
+{
+  "id": "1",
+  "timestamp": 1707055133,
+  "title": "À Feucherolles, on protège notre nature !",
+  "description": "Ici, à Feucherolles, on aime notre environnement et on fait tout pour le préserver. Découvrez nos actions et nos engagements pour une nature plus belle et plus vivante !",
+  "content": "Bienvenue chez nous, à Feucherolles ! On est super fiers de notre village et de notre nature. Depuis longtemps, on s’organise pour protéger nos espaces verts, nos forêts et toute la biodiversité qui nous entoure. Grâce à nos habitants et nos associations, on met en place plein d’initiatives pour que notre village reste un endroit agréable et respectueux de la planète.",
+  "bannerImg": "/img/defence/banner.png",
+  "author": {
+    "username": "Lotus64",
+    "avatarURL": "/avatar/lotus.webp"
+  },
+  "parts": [
+    {
+      "title": "L'ADEF : notre association pour la nature",
+      "img": {
+        "url": "/img/defence/adef.png",
+        "alt": "Logo de l'ADEF",
+        "position": "left"
+      },
+      "content": "Chez nous, l'ADEF (Association pour l'Aménagement et la Défense de l'Environnement de Feucherolles) est un peu notre super-héros de la nature ! Depuis 1974, cette asso se bat pour que notre village garde son charme, ses espaces verts et son équilibre écologique. Elle nous aide à mieux comprendre les enjeux écologiques et veille à ce que l’urbanisation ne vienne pas tout gâcher. Si ça te dit de participer ou juste d’en savoir plus, passe les voir au 38 Résidence le Pré des Coulons, ou envoie-leur un petit mail à adefenvironnementfeucherolles@gmail.com !",
+      "url": "#adef"
+    },
+    {
+      "title": "La Fête du Printemps : on célèbre nos abeilles !",
+      "img": {
+        "url": "/img/defence/abeille.png",
+        "alt": "Affiche de la Fête du Printemps à Feucherolles",
+        "position": "right"
+      },
+      "content": "Chez nous, on adore fêter la nature ! En 2021, on a mis les abeilles à l’honneur pendant six semaines. Pourquoi ? Parce que sans elles, plus de fleurs, plus de fruits, et plus de nature ! Avec l'Association de la Plaine de Versailles, on a organisé des ateliers, des balades et plein d’activités pour petits et grands. Le but ? Montrer à quel point ces petits insectes sont indispensables et comment chacun peut les aider, même dans son jardin. C’était un moment magique et on espère bien recommencer !",
+      "url": "#fête-du-printemps"
+    }
+  ]
+}

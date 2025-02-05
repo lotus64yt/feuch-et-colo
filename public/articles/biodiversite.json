@@ -1,0 +1,34 @@
+{
+    "id": 2,
+    "timestamp": 1738754244700,
+    "title": "La protection de la biodiversité à Feucherolles",
+    "description": "Découvrez les actions que nous menons à Feucherolles pour protéger et valoriser la biodiversité locale.",
+    "content": "À Feucherolles, nous sommes fiers de notre environnement naturel et nous nous engageons activement dans sa préservation. Voici quelques-unes de nos initiatives pour protéger la biodiversité locale :",
+    "bannerImg": "/img/biodiversite/banner.png",
+    "author": {
+        "username": "Lotus64",
+        "avatarURL": "/avatar/lotus.webp"
+    },
+    "parts": [
+        {
+            "title": "Le Jardin Pédagogique Alania",
+            "img": {
+                "url": "/img/biodiversite/jardin.png",
+                "alt": "Jardin Pédagogique Alania",
+                "position": "left"
+            },
+            "content": "Le Jardin Pédagogique Alania est un espace naturel aménagé par la commune de Feucherolles, en partenariat avec l'Association de la Plaine de Versailles. Il offre un lieu d'apprentissage unique pour tous, avec des arbres fruitiers, un bassin, des haies champêtres et des espaces dédiés à différentes méthodes de culture. Il sert de support pour des ateliers et des réunions en plein air afin de sensibiliser et d'éduquer à la biodiversité. \n\n**Pour en savoir plus :** https://www.plainedeversailles.fr/jardin-pedagogique/",
+            "url": "#jardin-pedagogique"
+        },
+        {
+            "title": "Fête de la Nature",
+            "img": {
+                "url": "/img/biodiversite/fete.png",
+                "alt": "Fête de la Nature à Feucherolles",
+                "position": "right"
+            },
+            "content": "Chaque année, la commune de Feucherolles participe à la Fête de la Nature, un événement national dédié à la découverte et à la protection de notre environnement. Cet événement est l'occasion de proposer des animations pour tous les âges, afin de sensibiliser à la biodiversité et de favoriser les échanges sur cette thématique. \n\n**Pour en savoir plus :** https://fetedelanature.com/commune-de-feucherolles",
+            "url": "#commune-de-feucherolles"
+        }
+    ]
+}
