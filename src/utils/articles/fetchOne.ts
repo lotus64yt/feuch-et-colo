@@ -8,7 +8,7 @@ export default async function fetchOneArticle(id: string | number): Promise<Arti
 
     let article = {} as ArticleJSON;
 
-    Promise.all(filenames.map(async (element, index) => {
+    Promise.all(filenames.map(async (element) => {
         const filePath = path.join(articlesDir, element);
         const fileContents = fs.readFileSync(filePath, 'utf8');
         const articleData = JSON.parse(fileContents);

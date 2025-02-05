@@ -1,5 +1,5 @@
 import fetchAllArticles from "@/utils/articles/fetchAll";
-import { NextRequest, NextResponse } from "next/server";
+import { NextResponse } from "next/server";
 
 export async function GET() {
     const articles = await fetchAllArticles();

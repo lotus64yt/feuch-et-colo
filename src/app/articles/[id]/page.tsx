@@ -23,7 +23,7 @@ export default function Page() {
             .catch(() => {
                 setArticle(false);
             });
-    }, [id]);
+    }, [id, article]);
 
     if (article === null) return (
         <div className="text-center py-10 flex flex-col items-center">
@@ -85,13 +85,13 @@ export default function Page() {
                         <div
                             className={`flex gap-4 transition-all duration-300 hover:opacity-90 ${part.img.position === "left" ? "flex-row items-start" : "flex-row-reverse items-start"}`}
                         >
-                            <img
+                            <Image
                                 src={part.img.url}
                                 alt={part.img.alt}
+                                width={300}
+                                height={200}
                                 className={`max-w-[300px] h-auto object-cover overflow-hidden transition-transform duration-300 hover:scale-110 cursor-pointer shadow-md ${part.img.position === "left" ? "rounded-l-md rounded-r-2xl" : "rounded-r-md rounded-l-2xl"}`}
                             />
-
-
                             <div className="m-4 transition-colors duration-300 hover:text-gray-500" dangerouslySetInnerHTML={{ __html: toHTML(part.content) }} />
                         </div>
                     </div>

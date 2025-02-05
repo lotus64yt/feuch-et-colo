@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import fetchOneArticle from "@/utils/articles/fetchOne";
 import { fetchParams } from "@/utils/api/params";
 
-export async function GET(req: any) {
+export async function GET(req: Request) {
     const params = fetchParams(req.url);
     const article = await fetchOneArticle(params || "");
     

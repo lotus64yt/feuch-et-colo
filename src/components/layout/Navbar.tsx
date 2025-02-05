@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 
-export default function Navbar({ children }: { children?: React.ReactNode }) {
+export default function Navbar() {
     const [scrolled, setScrolled] = useState(false);
 
     useEffect(() => {

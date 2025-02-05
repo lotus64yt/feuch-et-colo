@@ -17,7 +17,7 @@ export default function Home() {
       });
   }, [])
   return (
-    <div className="w-screen h-screen flex flex-col justify-center items-center  pt-5">
+    <div className="w-screen h-screen flex flex-col justify-center items-center pt-5 mb-7">
       <main className="relative w-screen flex flex-col gap-6 justify-center items-center">
         <video
           className="absolute inset-0 w-full h-full object-cover"
