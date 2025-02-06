@@ -25,12 +25,22 @@ export default function Home() {
       <main className="relative w-full flex flex-col gap-6 items-center">
         <div className="relative w-full h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[80vh] flex justify-center items-center overflow-hidden">
           <video
+            loop
+            muted
+            autoPlay
+            preload="none"
             className="absolute inset-0 w-full h-full object-cover"
+          >
+            <source src="/videos/backvideo.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          {/* <video
             src="/videos/backvideo.mp4"
             autoPlay
             loop
             muted
-          />
+            preload="auto"
+          /> */}
           <div className="absolute inset-0 bg-black/50" />
           <div className="w-full relative z-10 flex flex-col justify-center items-center text-center text-white">
             <Image
