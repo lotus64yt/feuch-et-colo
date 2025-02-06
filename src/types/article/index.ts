@@ -9,15 +9,17 @@ export interface ArticleJSON {
         "username": string;
         "avatarURL": string;
     },
-    "parts": {
-        "title": string;
-        "img": {
-            "url": string;
-            "alt": string;
-            "position": "left" | "right";
-        },
-        "content": string;
-        "url"?: string;
-        "id"?: number;
-    }[]
+    "parts": ArticlePart[]
+}
+
+export interface ArticlePart {
+    "title": string;
+    "img": {
+        "url": string;
+        "alt": string;
+        "position": "left" | "right";
+    },
+    "content": string;
+    "url"?: string;
+    "id"?: number;
 }
