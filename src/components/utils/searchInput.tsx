@@ -26,7 +26,7 @@ export default function SearchInput() {
   }, [search]);
 
   return (
-    <div className={`relative transition-all duration-300 ${open ? 'w-full' : 'w-1/3'}`} >
+    <div className={`relative transition-all duration-300 ${open ? 'w-full' : 'w-full sm:w-1/3'}`} >
       <input
         type="text"
         value={search}
