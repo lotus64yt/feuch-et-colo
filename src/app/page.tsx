@@ -60,7 +60,7 @@ export default function Home() {
           <div className="col-span-3 flex justify-center"><Spinner /></div>
         ) : recents === false ? (
           <div className="col-span-3 flex justify-center">
-            <p>Une erreur s'est produite lors du chargement des articles récents.</p>
+            <p>Une erreur s{"'"}est produite lors du chargement des articles récents.</p>
           </div>
         ) : (
           recents.map((article) => (
