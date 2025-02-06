@@ -34,7 +34,7 @@ export default function RootLayout({
       >
         <main className="h-full w-full">
           <Navbar />
-          <div className="z-10 h-full w-full pt-28 mb-auto overflow-hidden">
+          <div className="z-10 h-full w-full pt-10 mb-auto overflow-hidden">
             {children}
           </div>
 
