@@ -26,7 +26,7 @@ export default function SearchInput() {
   }, [search]);
 
   return (
-    <div className="relative w-full">
+    <div className={`relative transition-all duration-300 ${open ? 'w-full' : 'w-1/3'}`} >
       <input
         type="text"
         value={search}
@@ -36,12 +36,12 @@ export default function SearchInput() {
         placeholder="Rechercher un article"
         className="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
       />
-      <div className={`absolute w-full bg-white border border-gray-300 rounded-md shadow-md mt-1 max-h-60 overflow-y-auto ${(open && results !== null && results !== false && results.length > 0) ? 'block' : 'hidden'}`}>
+      <div className={`relative z-40 w-full bg-white border border-gray-300 rounded-md shadow-md mt-1 max-h-60 overflow-y-auto ${(open && results !== null && results !== false && results.length > 0) ? 'block' : 'hidden'}`}>
         {
           search!== "" && results !== null && results !== false && results.length > 0 && (
-            <ul>
+            <ul className="flex flex-col gap-2 my-2">
               {results.map((article) => (
-                <li key={article.id} className="p-2 hover:bg-gray-100 rounded-md">
+                <li key={article.id} className="hover:bg-gray-100 rounded-md">
                   <Link
                     href={`/articles/${article.id}`}
                     // onMouseDown={(e) => e.preventDefault()}
