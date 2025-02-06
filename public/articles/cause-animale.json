@@ -1,0 +1,34 @@
+{
+  "id": "3",
+  "timestamp": 1738866438962,
+  "title": "À Feucherolles, on se soucie du bien-être animal !",
+  "description": "Ici, à Feucherolles, on aime les animaux et on fait tout pour les protéger. Découvrez nos actions et nos engagements pour une vie animale plus respectée et plus heureuse !",
+  "content": "Bienvenue chez nous, à Feucherolles ! On est super fiers de notre village et de tous les animaux qui vivent ici. Depuis longtemps, on s’organise pour que les animaux soient bien traités, qu'ils soient sauvages ou domestiques. Grâce à nos habitants et nos associations, on met en place plein d’initiatives pour que notre village soit un endroit où les animaux sont respectés et où ils peuvent vivre en toute sécurité.",
+  "bannerImg": "/img/animal/banner.png",
+  "author": {
+    "username": "Lotus64",
+    "avatarURL": "/avatar/lotus.webp"
+  },
+  "parts": [
+    {
+      "title": "L'ADEF : notre association pour la cause animale",
+      "img": {
+        "url": "/img/defence/adef.png",
+        "alt": "Logo de l'ADEF",
+        "position": "left"
+      },
+      "content": "Chez nous, l'ADEF (Association pour l'Aménagement et la Défense de l'Environnement de Feucherolles) est un peu notre super-héros des animaux ! Depuis 1974, cette asso se bat pour que notre village soit un endroit où les animaux sont respectés et protégés. Elle nous aide à mieux comprendre les enjeux de la cause animale et veille à ce que les animaux ne soient pas maltraités. Si ça te dit de participer ou juste d’en savoir plus, passe les voir au 38 Résidence le Pré des Coulons, ou envoie-leur un petit mail à adefenvironnementfeucherolles@gmail.com !",
+      "url": "#adef"
+    },
+    {
+      "title": "La Fête du Printemps : on célèbre nos amis les animaux !",
+      "img": {
+        "url": "/img/defence/abeille.png",
+        "alt": "Affiche de la Fête du Printemps à Feucherolles",
+        "position": "right"
+      },
+      "content": "Chez nous, on adore fêter les animaux ! En 2021, on a mis les abeilles à l’honneur pendant six semaines. Pourquoi ? Parce que sans elles, c'est tout un écosystème qui est menacé ! Mais on a aussi pensé à tous les autres animaux, en organisant des ateliers, des balades et plein d’activités pour petits et grands. Le but ? Montrer à quel point tous les animaux sont importants et comment chacun peut les aider, même dans son jardin. C’était un moment magique et on espère bien recommencer !",
+      "url": "#fête-du-printemps"
+    }
+  ]
+}

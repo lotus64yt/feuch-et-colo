@@ -18,8 +18,6 @@ export default function Footer() {
                     <p className="text-white">Le journal d{"'"}écologie qui n{"'"}est pas tout le temps écologique.</p>
                     <br />
                     <span className="text-white underline"><a href="https://lmcgroup.xyz/" className="cursor-pointer transition-all duration-300 ease-in-out hover:tracking-wide hover:scale-105">Powered by Pulse UI from LMC Group</a></span>
-                    <br />
-                    <h3 className="ml-4 text-white">© 2021 Le feuch et-colo</h3>
                 </div>
             </div>
         </div>
