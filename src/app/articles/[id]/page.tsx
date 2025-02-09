@@ -42,8 +42,8 @@ export default function Page() {
     );
 
     return (
-        <div className="w-full flex flex-col justify-center overflow-hidden">
-            <ArticleHeader article={article} />
+        <div className="w-full flex flex-col justify-center overflow-hidden pt-8">
+                <ArticleHeader article={article} />
             <div className="w-full h-full px-4 flex flex-col overflow-x-hidden">
                 <ArticleContent content={article.content} />
 
@@ -59,7 +59,7 @@ function ArticleHeader({ article }: { article: ArticleJSON }) {
     const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.1 });
     return (
         <div
-            className={`relative w-full flex flex-col gap-6 justify-center h-[200px] md:h-[300px] lg:h-[400px] overflow-hidden transition-opacity duration-500 ease-in-out ${inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
+            className={`relative w-full flex flex-col gap-6 justify-center h-[250px] md:h-[350px] lg:h-[450px] overflow-hidden transition-opacity duration-500 ease-in-out ${inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
             ref={ref}
         >
             <div
