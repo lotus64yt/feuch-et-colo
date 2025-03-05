@@ -25,15 +25,15 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="w-screen min-h-screen flex flex-col items-center pt-5 mb-7 justify-center">
-      <main className="relative w-full flex flex-col gap-6 items-center">
-        <div className="relative w-full h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[80vh] flex justify-center items-center overflow-hidden">
+    <div className="w-full min-h-screen flex flex-col items-center pt-5 mb-7 justify-center overflow-x-hidden">
+      <main className="relative w-full flex flex-col gap-6 items-center overflow-x-hidden">
+        <div className="relative w-full h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[80vh] flex justify-center items-center overflow-x-hidden">
           <video
             loop
             muted
             autoPlay
             preload="none"
-            className="absolute inset-0 w-full h-full object-cover"
+            className="absolute inset-0 w-full h-full object-cover overflow-hidden"
           >
             <source src="/videos/backvideo.mp4" type="video/mp4" />
             Your browser does not support the video tag.
@@ -46,7 +46,7 @@ export default function Home() {
             preload="auto"
           /> */}
           <div className="absolute inset-0 bg-black/50" />
-          <div className="w-full relative z-10 flex flex-col justify-center items-center text-center text-white">
+          <div className="w-screen relative z-10 flex flex-col justify-center items-center text-center text-white">
             <Image
               className="w-20 h-20 sm:w-24 sm:h-24 mix-blend-difference"
               src="/favicon.svg"

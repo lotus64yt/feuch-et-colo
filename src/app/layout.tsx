@@ -32,7 +32,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <main className="h-full w-screen">
+        <main className="h-full w-full">
           <Navbar />
           <div className="z-10 h-full w-full pt-10 mb-auto overflow-hidden">
             {children}
