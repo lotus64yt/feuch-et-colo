@@ -1,34 +1,59 @@
 {
     "id": 2,
     "timestamp": 1738754244700,
-    "title": "La protection de la biodiversité à Feucherolles",
-    "description": "Découvrez les actions que nous menons à Feucherolles pour protéger et valoriser la biodiversité locale.",
-    "content": "À Feucherolles, nous sommes fiers de notre environnement naturel et nous nous engageons activement dans sa préservation. Voici quelques-unes de nos initiatives pour protéger la biodiversité locale :",
-    "bannerImg": "/img/biodiversite/banner.png",
-    "author": {
-        "username": "Lotus64",
-        "avatarURL": "/avatar/lotus.webp"
-    },
-    "parts": [
-        {
-            "title": "Le Jardin Pédagogique Alania",
-            "img": {
-                "url": "/img/biodiversite/jardin.png",
-                "alt": "Jardin Pédagogique Alania",
-                "position": "left"
+        "title": "La biodiversité à Feucherolles : un patrimoine naturel préservé",
+        "description": "Feucherolles, village des Yvelines, s'exprime sur sa richesse en biodiversité et les initiatives locales pour sa préservation.",
+        "content": "En tant que village de Feucherolles, niché dans les Yvelines, je suis fier de partager avec vous la richesse de ma biodiversité et les efforts déployés par mes habitants pour la préserver.",
+        "bannerImg": "https://feucherolles.fr/sites/default/files/styles/large/public/2021-06/biodiversite-feucherolles.jpg",
+        "author": {
+    "username": "Lotus64",
+    "avatarURL": "/avatar/lotus.webp"
+  },
+        "parts": [
+            {
+                "title": "Le jardin pédagogique 'Alania'",
+                "img": {
+                    "url": "https://feucherolles.fr/sites/feucherolles/files/styles/galerie_colorbox/public/image/plantation.jpg",
+                    "alt": "Jardin pédagogique Alania",
+                    "position": "left"
+                },
+                "content": "Au cœur de mon territoire, le jardin pédagogique 'Alania' est un espace dédié à l'éducation environnementale. Sur 1 200 m², il se compose de trois zones : un potager en carrés, un espace de compostage et une zone naturelle avec des arbres fruitiers, un jardin aquatique, des ruches et des hôtels à insectes. Ce lieu favorise la biodiversité en offrant un habitat à de nombreuses espèces locales.",
+                "url": "https://feucherolles.fr/mon-village/decouvrir-feucherolles/nature-en-ville/le-jardin-pedagogique-alania",
+                "id": 1
             },
-            "content": "Le Jardin Pédagogique Alania est un espace naturel aménagé par la commune de Feucherolles, en partenariat avec l'Association de la Plaine de Versailles. Il offre un lieu d'apprentissage unique pour tous, avec des arbres fruitiers, un bassin, des haies champêtres et des espaces dédiés à différentes méthodes de culture. Il sert de support pour des ateliers et des réunions en plein air afin de sensibiliser et d'éduquer à la biodiversité. \n\n**Pour en savoir plus :** https://www.plainedeversailles.fr/jardin-pedagogique/",
-            "url": "#jardin-pedagogique"
-        },
-        {
-            "title": "Fête de la Nature",
-            "img": {
-                "url": "/img/biodiversite/fete.png",
-                "alt": "Fête de la Nature à Feucherolles",
-                "position": "right"
+            {
+                "title": "La fête du printemps et de la biodiversité",
+                "img": {
+                    "url": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/481269906_1100875395418301_9018613638605584024_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=RdS2t3VpCTEQ7kNvgHhbKOb&_nc_oc=Adm0kGBVHsWJcTsPTzS0LI_bDnmXBOPZdXOLomoUelVPuUf5Xk-QwEHn3yEwS4t1J4cPs6DAdr_yDQX6JZqz8E7w&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=UeyV5fTm_tre_dBZqsOIGA&oh=00_AYHENAJn6bTp6cZTOzp_Fkbj931K6GzQgsZF-spW2dWTfQ&oe=67F2C587",
+                    "alt": "Fête de la biodiversité à Feucherolles",
+                    "position": "right"
+                },
+                "content": "Chaque année, j'accueille la fête du printemps et de la biodiversité, un événement qui sensibilise petits et grands à l'importance de préserver notre environnement. Au programme : ferme pédagogique, ateliers jardinage, lectures pour enfants, marché du printemps avec des producteurs locaux, concerts et ramassage des déchets. Ces moments conviviaux renforcent les liens entre mes habitants et leur environnement.",
+                "url": "https://feucherolles.fr/agenda/feucherolles-fete-le-printemps-et-la-biodiversite",
+                "id": 2
             },
-            "content": "Chaque année, la commune de Feucherolles participe à la Fête de la Nature, un événement national dédié à la découverte et à la protection de notre environnement. Cet événement est l'occasion de proposer des animations pour tous les âges, afin de sensibiliser à la biodiversité et de favoriser les échanges sur cette thématique. \n\n**Pour en savoir plus :** https://fetedelanature.com/commune-de-feucherolles",
-            "url": "#commune-de-feucherolles"
-        }
-    ]
-}
+            {
+                "title": "La Vitrine du Développement Durable (LVDD)",
+                "img": {
+                    "url": "https://feucherolles.fr/sites/feucherolles/files/styles/contenu/public/image/sans-titre5.png",
+                    "alt": "Logo de la Vitrine du Développement Durable",
+                    "position": "left"
+                },
+                "content": "L'association 'La Vitrine du Développement Durable' joue un rôle clé dans la promotion d'initiatives locales en faveur de l'environnement, de la biodiversité et de la transition écologique. Elle participe activement au Plan Climat de Gally-Mauldre et a contribué à la création de 'GallyWatt', un collectif citoyen dédié à la production d'énergies renouvelables. Grâce à LVDD, mes habitants s'engagent concrètement pour un avenir plus durable.",
+                "url": "https://feucherolles.fr/ca-bouge/vie-associative/annuaire-des-associations/la-vitrine-du-developpement-durable-lvdd",
+                "id": 3
+            },
+            {
+                "title": "Les espaces protégés et la faune locale",
+                "img": {
+                    "url": "https://feucherolles.fr/favicon.ico",
+                    "alt": "Forêt de Feucherolles",
+                    "position": "right"
+                },
+                "content": "Je suis fier d'abriter des espaces protégés qui témoignent de la richesse de ma faune et de ma flore. La forêt de Marly, par exemple, est classée zone naturelle d'intérêt écologique, faunistique et floristique (ZNIEFF). De plus, des espèces protégées ont été recensées sur mon territoire, renforçant l'importance de nos actions en faveur de la biodiversité.",
+                "url": "https://feucherolles.fr/",
+                "id": 4
+            }
+        ]
+    }
+    
