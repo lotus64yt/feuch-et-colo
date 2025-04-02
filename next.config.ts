@@ -3,7 +3,7 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   /* config options here */
   images: {
-    domains: ['*']
+    domains: ['*',"feucherolles.fr",                   "scontent-cdg4-3.xx.fbcdn.net",]
   },
   redirects: async () => {
     return [
