@@ -1,0 +1,41 @@
+{
+    "id": 4,
+    "timestamp": 1746462703261,
+    "title": "Un nouveau robots pour les agriculteurs amateurs et professionnels",
+    "description": "Des étudiants du lycée Charles de Gaulle de Poissy ont conçu un robot capable de planter des graines de manière autonome, contrôlé via Bluetooth. Un projet innovant présenté aux Olympiades de Sciences de l’Ingénieur.",
+    "content": "À l'occasion des Olympiades de Sciences de l'Ingénieur organisées par CentraleSupélec, un groupe d'étudiants du lycée Charles de Gaulle à Poissy a développé un robot autonome innovant. Destiné à automatiser le processus de plantation de graines, ce prototype marque une première étape vers l'agriculture connectée à petite échelle.",
+    "bannerImg": "/img/robot/img2.jpg",
+    "author": {
+        "username": "Lotus64",
+        "avatarURL": "/avatar/lotus.webp"
+    },
+    "parts": [
+        {
+            "title": "Un robot pensé pour l’agriculture du futur",
+            "img": {
+                "url": "/img/robot/img1.jpg",
+                "alt": "Le robot en fonctionnement sur terrain",
+                "position": "right"
+            },
+            "content": "Le robot, entièrement conçu et programmé par les lycéens, est équipé d’un système de déplacement autonome et d’un bras motorisé capable d’insérer des graines dans le sol. Grâce à une connexion Bluetooth, il peut être piloté et surveillé à distance depuis un smartphone. Ce système permet un contrôle simple tout en gardant la main sur l’automatisation du processus."
+        },
+        {
+            "title": "Une participation aux Olympiades de Sciences de l’Ingénieur",
+            "img": {
+                "url": "/img/robot/img3.jpg",
+                "alt": "Stand du lycée Charles de Gaulle aux Olympiades",
+                "position": "left"
+            },
+            "content": "Le projet a été présenté lors des Olympiades de Sciences de l’Ingénieur, un concours national valorisant l’ingéniosité des lycéens. Ce concours, organisé par CentraleSupélec, est une occasion unique pour ces jeunes talents de mettre en lumière leurs compétences techniques et leur capacité à travailler en équipe autour d’un objectif commun."
+        },
+        {
+            "title": "Des pistes d’amélioration prometteuses",
+            "img": {
+                "url": "/img/robot/img4.jpg",
+                "alt": "Prototype avec système d’arrosage potentiel",
+                "position": "right"
+            },
+            "content": "Bien que le robot soit déjà fonctionnel, l’équipe envisage plusieurs évolutions pour améliorer son efficacité. Parmi elles : l’intégration d’un système d’arrosage automatique, la cartographie du terrain via capteurs ou GPS, voire l’utilisation d’intelligence artificielle pour optimiser les déplacements et la gestion des cultures."
+        }
+    ]
+}
